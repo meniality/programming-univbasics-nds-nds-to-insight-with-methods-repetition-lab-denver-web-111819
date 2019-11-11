@@ -43,6 +43,7 @@ def total_gross(source)
   
   while index < source.length do
     grand_total += director_earnings_hash[directors[index]]
+    index += 1
   end
   grand_total
 end
