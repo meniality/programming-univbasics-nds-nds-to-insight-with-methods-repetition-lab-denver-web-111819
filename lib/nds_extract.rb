@@ -36,13 +36,13 @@ end
 
 def total_gross(source)
   directors = list_of_directors(source)
-  director_earning = gross_for_director(source)  
+  director_earnings_hash= gross_for_director(source)  
   
   grand_total = 0
   index = 0
   
   while index < source.length do
-    
+    grand_total += directors[index]
   end
   
   # Write this implementation
