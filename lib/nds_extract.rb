@@ -36,7 +36,7 @@ end
 
 def total_gross(source)
   directors_names = list_of_directors(source)
-  director_earnings_hash= gross_for_director(source)  
+  director_earnings_hash= directors_totals(source)  
   
   grand_total = 0
   index = 0
